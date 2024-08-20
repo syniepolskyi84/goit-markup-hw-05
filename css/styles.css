@@ -651,7 +651,6 @@ a:active {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 16px;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
   border-radius: 4px;
@@ -718,10 +717,6 @@ a:active {
   padding: 72px 24px 24px 24px;
 }
 
-.backdrop:not(.is-open) .modal {
-  transform: translate(-50%, -100%);                                                                                                                                       
-}
-
 .modal-btn-close {
   position: absolute;
   top: 24px;
@@ -772,8 +767,7 @@ fill: #ffff;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-    width: 360px;
-    margin-top: 24px;
+  width: 360px;
   margin-bottom: 16px;
 }
 
